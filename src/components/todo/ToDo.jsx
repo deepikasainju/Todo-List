@@ -27,6 +27,7 @@ const ToDo = () => {
       setCheckboxList([...checkboxList, { text: inputText, checked: false }]);
       setInputText(""); // Clear the input field after adding a checkbox
     }
+    
   };
 
   const handleChangeCheckbox = (index) => {
